@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+}
+
+.card {
+  background-color: #373f4d;
+  text-align: center;
+  color: white;
+  padding: 30px 40px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.card input[type="text"] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card button[type="submit"] {
+  width: 100%;
+  font-size: large;
+  padding: 14px 10px;
+  background: linear-gradient(to right, red, orange);
+
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.card button[type="submit"]:hover {
+  background: linear-gradient(to right, rgb(245, 0, 0), rgb(245, 165, 0));
+}
