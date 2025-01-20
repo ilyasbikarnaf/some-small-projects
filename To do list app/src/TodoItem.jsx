@@ -1,4 +1,4 @@
-export default function TodoItem({ todo, handleDelete,handleToggle }) {
+ export default function TodoItem({ todo, handleDelete,handleToggle }) {
   return (
     <li className="list-item">
       <label className="list-item-label">
