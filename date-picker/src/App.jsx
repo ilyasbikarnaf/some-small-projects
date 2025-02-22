@@ -10,4 +10,3 @@ export default function App() {
   return <DatePicker value={value} onChange={setValue}/>;
 }
 
-// month day-th, year
